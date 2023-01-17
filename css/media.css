@@ -1,0 +1,126 @@
+@media (max-width: 600px) {
+  .toggler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .hfix{
+    display: initial;
+    font-size: 1.1rem;
+  }
+  nav {
+    align-items: stretch;
+  }
+  .openednav.transparent, nav.openednav{
+    background-color: #373E3D!important;
+  }
+  nav ul {
+    display: none;
+    gap: 0;
+  }
+  nav ul a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  nav ul a:hover{
+    background-color: #4e5453;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  nav ul li a::after {
+    display: none;
+  }
+  .fflow-change {
+    flex-flow: column-reverse;
+    text-align: center!important;
+  }
+  .fflow-change img{
+    max-width: 200px;
+  }
+  .openednav .icon {
+    display: none;
+  }
+
+  .openednav .toggler span{
+    display: none;
+  }
+  
+  .openednav .toggler::after{
+    content: "✖ Zavřít menu";
+  }
+
+  .openednav {
+    display: block ;
+  }
+  
+  .openednav ul {
+    flex-direction: column;
+    display: flex;
+  }
+  .flex-row {
+    flex-direction: column;
+  }
+  .flex-row * {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+  .flex-row:last-child {
+    margin-bottom: 0;
+  }
+  .grid-cards {
+    display: block;
+  }
+  .grid-cards .card {
+    margin-bottom: 0.7rem;
+  }
+  .galerie {
+    grid-template-columns: 1fr 1fr;
+  }
+  .techcard {
+    display: block!important;
+  }
+  .map-cont {
+    display: block;
+  }
+  .fwrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .social {
+    grid-column: 1/3;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .grid-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .galerie {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 890px;
+  }
+  .grid-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .galerie {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+  .grid-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

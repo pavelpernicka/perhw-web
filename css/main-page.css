@@ -1,0 +1,79 @@
+.jumbotron {
+  background-color:  #F6EBD8;
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/header-sm.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: left;
+}
+
+nav.transparent{
+  background-color:#ffffff00;
+  box-shadow: none;
+}
+
+#navrh {
+  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../img/design.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#poradenstvi {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/meeting1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#vyroba {
+  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../img/manufacturing.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.jumbotron h1 {
+  text-align: left;
+}
+.jumbotron img {
+  opacity: 0.5;
+  filter: brightness(50%) sepia(100) saturate(100) hue-rotate(23deg) brightness(10);
+}
+.rikaji {
+    background-color: #f5faff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.techcard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+}
+
+.techcard-reverse {
+  grid-template-columns: 2fr 1fr;
+}
+
+.techcard-reverse img {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.techcard img {
+  max-width: 100%;
+}
+
+.technologies article::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 5px;
+  width: 100%;
+  grid-column: 1/3;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, #ffc107 50%, rgba(0,0,0,0) 100%);
+}

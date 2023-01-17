@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap');
+
+html {
+ font-size: 16px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #00395b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+}
+
+.maxi {
+  font-size: 3.9rem;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 2.9rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+p, .text-normal {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+.bigger {
+  font-size: 1.7rem;
+}
+
+.abitbigger {
+  font-size: 1.3rem;
+}

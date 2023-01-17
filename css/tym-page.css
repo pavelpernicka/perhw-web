@@ -1,0 +1,13 @@
+.stats {
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr;
+  align-items: center;
+  justify-items: center;
+}
+.pocet {
+  text-align: center;
+}
+.bignum {
+  font-size: 3rem;
+  font-weight: bold;
+}
