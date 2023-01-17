@@ -71,6 +71,8 @@ nav .icon {
   flex-direction: row;
   gap: 0.5rem;
   font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
 }
 nav a:hover{
   text-decoration: none;
