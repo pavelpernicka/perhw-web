@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 100vh;
   overflow: hidden;
   text-align: left;
 }
@@ -15,23 +14,26 @@ nav.transparent{
 }
 
 #navrh {
-  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../img/design.webp);
+  background: linear-gradient(rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.80)), url(../img/design.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #poradenstvi {
-  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../img/meeting1.webp);
+  background: linear-gradient(rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.80)), url(../img/meeting1.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #vyroba {
-  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../img/manufacturing.webp);
+  background: linear-gradient(rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.80)), url(../img/manufacturing.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.karticky article {
+  box-shadow: 0 0 19px -10px rgb(0 0 0 / 75%);
+}
 .jumbotron .container{
   color: #ffffff;
   display: flex;
@@ -41,7 +43,6 @@ nav.transparent{
   text-align: left;
 }
 .jumbotron img {
-  opacity: 0.5;
   filter: brightness(50%) sepia(100) saturate(100) hue-rotate(23deg) brightness(10);
 }
 .rikaji {
@@ -76,4 +77,10 @@ nav.transparent{
   width: 100%;
   grid-column: 1/3;
   background: linear-gradient(90deg, rgba(0,0,0,0) 0%, #ffc107 50%, rgba(0,0,0,0) 100%);
+}
+.main-text {
+    background-color: #e8e8e8cc;
+    border-radius: 0.4rem;
+    padding: 1.5rem;
+    color: #00395b !important;
 }
